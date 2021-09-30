@@ -1,0 +1,44 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "8F968C4E",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Oak's Parcel: Small Tip",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.tigertenzin.PocketDex.smallTip",
+      "referenceName" : "Oak's Parcel: Small Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "681E65D1",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Oak's Parcel: Medium Tip",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.tigertenzin.PocketDex.mediumTip",
+      "referenceName" : "Oak's Parcel: Medium Tip",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}

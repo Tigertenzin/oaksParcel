@@ -1,0 +1,112 @@
+## Version 0.9 (build 10)
+
+### Major Changes
+
+- Locations & Encounters! Added the List of Locations, with the ability to see encounters in each location for any relevant version.
+    - The design of the locations details page is not final. This build hopefully just has all the relevant information.
+    - Please file a bug report if you notice any weirdness in the encounters.
+
+### Minor Changes & Big Fixes
+
+- Added a “what’s new” section in the settings page.
+- The (x) button exit the settings page actually works now (sorry for the issues)
+- Fixed an issue where clicking on a Pokemon from another Pokemon’s detail page caused the “back” button to disappear.
+- Fixed Pokemon details page to only show the option to version data if that Pokemon existed in said version.
+- Fixed version filter in the Dex page.
+
+
+## Version 0.9 (build 8)
+
+### Minor Changes
+
+- Alternate App icons actually work on iPad now! (As a side note, if anybody out there has any app icon ideas/designs, pass them along)
+- Moved settings and about from the sidebar.
+- Pokemon details page now has menu options to change the version used for moves learned.
+
+
+## Version 0.9 (build 7)
+
+### Major Changes and Additions:
+- Type effectiveness section in Pokemon details page.
+- New theme colors! These are the other standard SwiftUI colors, but they don’t have a Pokemon game to originate from.
+
+### Minor Changes:
+- Changed sidebar icon colors to match theme color (rather than the text color, black/white).
+- Made forms and evolutions collapsable in Pokemon details page (to match the behavior of other sections).
+- Pokemon displayed in the Evolution Chain section can now direct to their respective detail pages.
+
+
+## Version 0.9 (build 6)
+
+### New Features:
+- New type matchup section to see super-effective/not-very-effective.
+- New favorites page: view your favorite pokemon, moves, abilities, and items (selected on their respective details page).
+- Evolution details have been added to Pokemon pages! This includes the method for evolving. (Some pokemon have specific locations they evolve at, which is still incoming)
+- Added sprites for different Pokemon forms. The change in stats for different forms will be coming in future updates.
+- Added the In-App Purchases to the Tip Jar. I am doing this as a monthly or yearly subscription. I am planning for some extra fun features for those who do subscribe, but these will not detract from any of the utility of the app! Rather, they will just add fun little things for those who do choose to support me (fun little things coming soon!).
+
+
+### Changes and Bug fixes:
+
+- Changed the about screen, now includes a privacy policy (it’s pretty straightforward).
+- Changed the navigationBar menus to be more consistent across different parts of the app.
+- Changed various views to (hopefully) make everything prettier looking.
+ 
+
+## Version 0.9 (build 5)
+
+### Big addition:
+- Damage Calculator! A basic damage calculator (similar to Smogon’s) has been added in the “calculator” tab. You can input Pokemon and their moves, as well as EVs, IVs, etc., to calculate damage. There are still some things missing, such as item effects and certain moves that take into account Pokemon details (e.g. weight w/ grass knot, speed w/ electro ball, etc.) that should be coming soon.
+
+### Major changes:
+- Changed how data is loaded in various views. This should hopefully speed up the app without causing major issues. As always, if you see issues or crashes please let me know through the standard feedback channels.
+
+
+## Version 0.9 (build 4)
+
+ Bug fixes:
+- Changed the effect description text on moves and abilities again. Should fix crashes
+
+
+## Version 0.9 (build 3)
+
+Some additions, changes, and bug fixes:
+
+### Big additions:
+- Added the ability to search a Pokemon by number (an obvious addition I somewhat blanked on including before). Searching by number can be done by checking either (1) if the search number matches exactly or (2) if the number is contained anywhere within the Pokedex number.
+
+### Minor Fixes:
+- Fixed names with 2 words or more to be properly capitalized.
+- Changed default version to the most recent versions so all Pokemon are shown by default.
+- Added menus to Navigation bar in various places to combine extra actions in a single place.
+- Fixed move and ability effects. Their text should be displayed properly now.
+
+## Version 0.9 (build 2)
+
+### Quick bug fix update!
+
+- There was an issue looking at moves when the version was set to “Red & Blue,” the default setting which caused a crash. A silly error on my part, should be fixed now!
+
+
+## Version 0.9 (build 1)
+
+The first build of Oak’s Parcel, a modern way to get information related to the Pokemon video games!
+
+This build includes basic functionality including:
+- Information on the first seven generations of Pokemon. This includes Pokemon, moves, abilities, and items.
+    - Different forms are coming soon.
+    - Info for Gen 8 Pokemon are also coming soon. The source of info being used currently only include up to Gen 7. If they do not update their data, I will probably try and include it myself, which might take quite a bit of time.
+- Team builder: create different parties of 6.
+- Living Dex Checklist: A tool for tracking your Living Dex progress.
+- Compare: Directly compare stats of up-to 6 Pokemon.
+- Settings:
+    - Themes. Currently theme colors are based on the first generation of Pokemon games. More themes will be coming in the future.
+    - Filter lists automatically by version.
+
+Many things are still being worked up and will hopefully be ready by version 1.0 (e.g. damage calculator, battle simulator, tip jar). Until then, please enjoy the current experience and let me know any bugs you come across.
+
+Also, if you have any more feature suggestions, please let me know!
+
+Thank you all,
+Thomas Tenzin
+
